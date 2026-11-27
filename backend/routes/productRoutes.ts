@@ -1,6 +1,5 @@
 import express from 'express';
-import logger from '../utils/logger';
-import { getAllProducts } from '../controllers/productController';
+import { getAllProducts } from '../controllers/productController.ts';
 
 const router = express.Router();
 
